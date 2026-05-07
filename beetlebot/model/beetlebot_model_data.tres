@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ModelData" format=3 uid="uid://c0uum62k51nw5"]
+
+[ext_resource type="Script" uid="uid://bpk07sgyftnyy" path="res://model_viewer/option_list_data_builder.gd" id="1_u7g0q"]
+[ext_resource type="Script" uid="uid://cieem5bgp44xo" path="res://model_viewer/model_data_builder.gd" id="2_vrr0q"]
+[ext_resource type="Texture2D" uid="uid://71jjagmyh0fq" path="res://beetlebot/model/beetlebot_vignette.png" id="3_7g3ac"]
+
+[resource]
+script = ExtResource("2_vrr0q")
+name = "Beetlebot"
+scene_path = "uid://bpjqcswabdtyb"
+vignette = ExtResource("3_7g3ac")
+scale_compensation = 0.65
+camera_offset_y = 0.25
+animations_list = PackedStringArray("Idle:idle", "Walk:walk", "Attack:attack", "Power off:power_off")
